@@ -1,0 +1,15 @@
+li{list-style: none;}
+a{text-decoration: none;}
+a,p,dt,dd,h1,h2,h3,h4,h5{color: #444;}
+ul,p,span{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    font-size: 14px; 
+}
+.mjinner{
+    max-width:1420px;
+    margin: 0 auto;
+}
