@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>annberry 페이지 리뉴얼</title>
+    <title>annberry 페이지</title>
 
-    <link rel="stylesheet" href="/annberry/css/ann.min.css">
+    <link rel="stylesheet" href="/annberry/css/ann.min.css?ver<?php echo time()?>">
     <link rel="stylesheet" href="/annberry/css/common.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <!-- 폰트 -->
@@ -16,17 +16,229 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="/annberry/js/swiper.js"></script>
     <!-- 커스터마이징 -->
+    <script src="/annberry/js/ann.js"></script>
     <!-- 제이쿼리가 필요없는 플러그인은 위로 올라가도된다/순수 자바스크립트 플러그인 -->
     <!-- 제이쿼리->제이쿼리플러그인->제이쿼리 커스터마이징 내꺼 -->
     <!-- 제이쿼리 플러그인 지양 / 자바스크립트 플러그인 사용 aos, swiper -->
 </head>
-<body>
+<body id="page-top">
+    <!-- 탑 퀵버튼 아이디-->
     <section id="navi">
-
+        <div class="mj">
+            <div class="navigation">
+                <div class="logo">
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="/annberry/img/logo_w.svg" alt="..." />
+                        <span class="logoText">key of healthy life</span>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#productTop">앤베리</a></li>
+                        <li><a href="#pSwiper">제품소개</a></li>
+                        <li><a href="#recipe">레시피</a></li>
+                        <li><a href="#contact">체험신청</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section id="main">
+        <div class="sWrap">
+            <div id="mainSwiper" class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="/annberry/img/banner0.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/annberry/img/banner1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/annberry/img/banner3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <section id="productTop">
+        <div class="mjinner">
+            <div class="pWrap">
+                <div class="noJam">
+                    <p>
+                        딸기청 NO.<br/>
+                        딸기잼 NO.<br/>
+                        딸기 콩포트라고 불러주세요.
+                    </p>
+                </div>
+                <div class="jamimg">
+                    <img src="/annberry/img/info1.JPG" alt="">
+                </div>
+            </div>
+
+            <div class="textWrap">
+                <div class="long">
+                    <p>과일의 식감은 최대한 살리고,<br/>
+                        당분은 줄이는<br/> <span>프랑스의 과일 디저트 요리법</span>이랍니다.<br/>
+                        미식을 사랑하는 프랑스 사람들의 디저트를<br/> 우리의 일상에서 간편하게 즐겨보세요.
+                    </p>
+                </div>
+                <div class="farmer">
+                    <img src="/annberry/img/info2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="bgimg">
+        <div class="mjinner">
+            <div class="tag">
+                <ul class="sub">
+                    <li class="pre">프리미엄 딸기 콩포트</li>
+                    <li class="berry">&Berry</li>
+                </ul>
+                <ul class="hash">
+                    <li>#HACCP 인증</li>
+                    <li>#IQF 공법</li>
+                    <li>#남다른 식감</li>
+                    <li>#자연유래 성분</li>
+                    <li>#이벤트</li>
+                    <li>#세일</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="pSwiper">
+        <div class="mjinner">
+            <div class="ptext">
+                <a href="https://smartstore.naver.com/kohl" class="store">
+                    <p>구매하기</p>
+                    <div class="btnimg">
+                        <img src="/annberry/img/arrow.png" alt="">
+                    </div>
+                </a>
+                <div class="sbtnWrap">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div id="product" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="/annberry/img/p-swiper.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/annberry/img/p-swiper1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/annberry/img/p-swiper2.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/annberry/img/p-swiper3.png" alt="">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recipe">
+        <div class="mjinner">
+            <div class="recipeWrap">
+                <p>
+                    <span>다양한 <span class="highlight">딸기레시피를</span><br class="br3"/> 간편하게 즐겨보세요!</span><br/>
+                    앤베리와 함께라면<br class="br1"/> 누구든 근사한 식탁을 차릴 수 있어요.<br/>
+                    간편한 아침식사부터<br class="br2"/> 딸기덕후를 위한 딸기만찬까지,
+                    
+                </p>
+                <img src="" alt="">
+            </div>
+            <div class="latteSub">
+                <p>
+                    딸기라떼
+                </p>
+                <span>
+                    Milk & Berry
+                </span>
+            </div>
+            <div class="latte">
+                <div class="latteimg">
+                    <img src="/annberry/img/latte.jpg" alt="">
+                </div>
+                <div class="letteway">
+                    <p>
+                        재료
+                    </p>
+                    <p class="font">
+                        우유 100ml, 앤베리 50g
+                    </p>
+                    <p class="font">
+                        앤베리를 넣고,<br/>
+                        우유를 부어 완성합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="crepeSub">
+                <p>
+                    딸기크레페
+                </p>
+                <span>
+                    Crepe & Berry
+                </span>
+            </div>
+            <div class="crepe">
+                <div class="crepeimg">
+                    <img src="/annberry/img/crepe.jpg" alt="">
+                </div>
+                <div class="crepeway">
+                    <p>
+                        재료
+                    </p>
+                    <p class="font">
+                        우유 100ml, 앤베리 50g
+                    </p>
+                    <p class="font">
+                        앤베리를 넣고,<br/>
+                        우유를 부어 완성합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="recipeBtn">
+                <a href="https://www.andberry.co.kr/recipe">more recipe</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="mjinner">
+            <form id="contactForm">
+                <div class="formsub">
+                    <h2 class="">체험 신청하기</h2>
+                    <h3 class="">딸기 재배부터 콩포트 만들기까지 직접 체험해보세요</h3>
+                </div>
+                <div class="formWrap">
+                    <div class="form-group">
+                        <!-- Name input-->
+                        <input class="form-control" id="name" type="text" placeholder="이름 *" data-sb-validations="required" />
+                    </div>
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" id="email" type="email" placeholder="전화번호 *" data-sb-validations="required,email" />
+                    </div>
+                    <div class="form-group">
+                        <!-- Phone number input-->
+                        <input class="form-control" id="phone" type="tel" placeholder="인원수 *" data-sb-validations="required" />
+                    </div>
+                    <div class="form-group mb-md-0">
+                      <!-- Message input-->
+                      <textarea class="form-control" id="message" placeholder="특이사항 *" data-sb-validations="required"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <input id ="gogo" type="button" value="신청하기">
+                    </div>
+                </div>
+                <!-- Submit Button-->
+            </form>
+        </div>
+    </section>
     
 </body>
 </html>

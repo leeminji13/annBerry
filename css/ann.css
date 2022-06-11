@@ -1,1 +1,745 @@
-/* No CSS *//*# sourceMappingURL=ann.css.map */
+#navi .navigation {
+  background-color: #c01a00d2;
+  display: block;
+  padding: 0.5rem 0.2rem;
+}
+
+@media (min-width: 768px) {
+  #navi .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem;
+  }
+}
+
+#navi .navigation .logo {
+  font-family: 'Roboto Condensed';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 0.2rem;
+}
+
+#navi .navigation .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navi .navigation .logo a img {
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  #navi .navigation .logo a img {
+    width: 70px;
+    padding-bottom: unset;
+  }
+}
+
+@media (min-width: 1024px) {
+  #navi .navigation .logo a img {
+    width: 120px;
+  }
+}
+
+#navi .navigation .logo a span {
+  display: none;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  #navi .navigation .logo a span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+#navi .navigation .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  #navi .navigation .menu ul li {
+    padding: 0 1rem;
+  }
+}
+
+#navi .navigation .menu ul li a {
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  #navi .navigation .menu ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+#main,
+#productTop,
+#pSwiper,
+#recipe {
+  padding-bottom: 7rem;
+}
+
+@media (min-width: 768px) {
+  #main,
+  #productTop,
+  #pSwiper,
+  #recipe {
+    padding-bottom: 20rem;
+  }
+}
+
+#bgimg,
+#contact {
+  margin-bottom: 7rem;
+}
+
+@media (min-width: 768px) {
+  #bgimg,
+  #contact {
+    margin-bottom: 20rem;
+  }
+}
+
+#mainSwiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+#mainSwiper .swiper-button-next,
+#mainSwiper .swiper-button-prev {
+  color: #c01a00d2;
+}
+
+#mainSwiper .swiper-button-next:after,
+#mainSwiper .swiper-button-prev:after {
+  font-size: 1.8rem;
+}
+
+#productTop .pWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  #productTop .pWrap {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+
+#productTop .pWrap .noJam {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(10%, 50%);
+          transform: translate(10%, 50%);
+}
+
+@media (min-width: 1024px) {
+  #productTop .pWrap .noJam {
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+  }
+}
+
+#productTop .pWrap .noJam p {
+  font-size: 1.3rem;
+  background: linear-gradient(137deg, #626262 10%, #ffffff 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+  #productTop .pWrap .noJam p {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+#productTop .pWrap .jamimg {
+  width: 70%;
+}
+
+@media (min-width: 1024px) {
+  #productTop .pWrap .jamimg {
+    width: 50%;
+  }
+}
+
+#productTop .pWrap .jamimg img {
+  width: 100%;
+}
+
+#productTop .textWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#productTop .textWrap .long {
+  text-align: center;
+}
+
+#productTop .textWrap .long p {
+  font-size: 1rem;
+  line-height: 3rem;
+}
+
+@media (min-width: 1024px) {
+  #productTop .textWrap .long p {
+    font-size: 1.5rem;
+  }
+}
+
+#productTop .textWrap .long p span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #productTop .textWrap .long p span {
+    font-size: 1.7rem;
+  }
+}
+
+#productTop .textWrap .long p span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-color: rgba(0, 255, 213, 0.19);
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+#productTop .textWrap .farmer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #productTop .textWrap .farmer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+#bgimg {
+  background-image: url(/annberry/img/tagimg.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#bgimg .tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  #bgimg .tag {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+  }
+}
+
+#bgimg .tag .sub,
+#bgimg .tag .hash {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#bgimg .tag .sub {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#bgimg .tag .sub li {
+  color: #caf088;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  #bgimg .tag .hash {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+  }
+}
+
+#bgimg .tag .hash li {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #bgimg .tag .hash li {
+    padding-right: 1rem;
+  }
+}
+
+#pSwiper {
+  overflow: hidden;
+}
+
+#pSwiper .mjinner {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #pSwiper .mjinner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+}
+
+#pSwiper .mjinner .ptext {
+  text-align: center;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #pSwiper .mjinner .ptext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+}
+
+@media (min-width: 1440px) {
+  #pSwiper .mjinner .ptext {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+}
+
+#pSwiper .mjinner .ptext .store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pSwiper .mjinner .ptext .store p {
+  padding-bottom: 1rem;
+}
+
+#pSwiper .mjinner .ptext .store .btnimg {
+  padding-left: 0.5rem;
+}
+
+#pSwiper .mjinner .ptext .store .btnimg:hover img {
+  -webkit-transform: translateX(1rem);
+          transform: translateX(1rem);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#pSwiper .mjinner .ptext .store .btnimg img {
+  width: 100%;
+}
+
+#pSwiper .mjinner .ptext .sbtnWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  #pSwiper .mjinner .ptext .sbtnWrap {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+#pSwiper .mjinner .ptext .sbtnWrap .swiper-button-next,
+#pSwiper .mjinner .ptext .sbtnWrap .swiper-button-prev {
+  position: unset;
+  top: 100%;
+  width: unset;
+  height: unset;
+  margin-top: unset;
+  z-index: 11;
+  cursor: pointer;
+  display: unset;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  color: unset;
+}
+
+#pSwiper .mjinner .ptext .sbtnWrap .swiper-button-next:after,
+#pSwiper .mjinner .ptext .sbtnWrap .swiper-button-prev:after {
+  font-size: 1rem;
+}
+
+#pSwiper .mjinner .ptext .swiper-pagination.swiper-pagination-fraction {
+  bottom: 0;
+}
+
+@media (min-width: 768px) {
+  #pSwiper .mjinner .ptext .swiper-pagination.swiper-pagination-fraction {
+    position: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  #product {
+    margin-left: 15rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  #product {
+    margin-left: 20rem;
+  }
+}
+
+#product .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+#recipe .mjinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#recipe .mjinner .recipeWrap {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#recipe .mjinner .recipeWrap p {
+  padding: 0 0.5rem;
+  line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .recipeWrap p {
+    font-size: 1.5rem;
+  }
+}
+
+#recipe .mjinner .recipeWrap p span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .recipeWrap p span {
+    font-size: 1.7rem;
+  }
+}
+
+#recipe .mjinner .recipeWrap p span .highlight {
+  position: relative;
+}
+
+#recipe .mjinner .recipeWrap p span .highlight:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-color: rgba(0, 255, 213, 0.19);
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .recipeWrap p .br1,
+  #recipe .mjinner .recipeWrap p .br2,
+  #recipe .mjinner .recipeWrap p .br3 {
+    display: none;
+  }
+}
+
+#recipe .mjinner .latteSub,
+#recipe .mjinner .crepeSub {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .latteSub,
+  #recipe .mjinner .crepeSub {
+    width: 45%;
+  }
+}
+
+#recipe .mjinner .latteSub p,
+#recipe .mjinner .crepeSub p {
+  font-size: 1.5rem;
+}
+
+#recipe .mjinner .latte,
+#recipe .mjinner .crepe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 7rem;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .latte,
+  #recipe .mjinner .crepe {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+#recipe .mjinner .latte .latteimg,
+#recipe .mjinner .latte .crepeimg,
+#recipe .mjinner .crepe .latteimg,
+#recipe .mjinner .crepe .crepeimg {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .latte .latteimg,
+  #recipe .mjinner .latte .crepeimg,
+  #recipe .mjinner .crepe .latteimg,
+  #recipe .mjinner .crepe .crepeimg {
+    padding-bottom: unset;
+  }
+}
+
+#recipe .mjinner .latte .latteimg img,
+#recipe .mjinner .latte .crepeimg img,
+#recipe .mjinner .crepe .latteimg img,
+#recipe .mjinner .crepe .crepeimg img {
+  width: 100%;
+}
+
+#recipe .mjinner .latte .letteway,
+#recipe .mjinner .latte .crepeway,
+#recipe .mjinner .crepe .letteway,
+#recipe .mjinner .crepe .crepeway {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .latte .letteway,
+  #recipe .mjinner .latte .crepeway,
+  #recipe .mjinner .crepe .letteway,
+  #recipe .mjinner .crepe .crepeway {
+    width: 55%;
+  }
+}
+
+#recipe .mjinner .latte .letteway .font,
+#recipe .mjinner .latte .crepeway .font,
+#recipe .mjinner .crepe .letteway .font,
+#recipe .mjinner .crepe .crepeway .font {
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .latte .letteway .font,
+  #recipe .mjinner .latte .crepeway .font,
+  #recipe .mjinner .crepe .letteway .font,
+  #recipe .mjinner .crepe .crepeway .font {
+    font-size: 1.5rem;
+  }
+}
+
+#recipe .mjinner .latte {
+  position: relative;
+}
+
+#recipe .mjinner .latte:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px #c01a00d2 dashed;
+  -webkit-transform: translateY(-3.5rem);
+          transform: translateY(-3.5rem);
+}
+
+#recipe .mjinner .crepe {
+  padding-bottom: 2rem;
+}
+
+#recipe .mjinner .recipeBtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: #c01a00d2;
+}
+
+#recipe .mjinner .recipeBtn:hover a {
+  color: #caf088;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#recipe .mjinner .recipeBtn a {
+  line-height: 2rem;
+  padding: 0 2rem;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #recipe .mjinner .recipeBtn a {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+}
+
+#contactForm {
+  background-image: url(/annberry/img/jang.GIF);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 100% 7%;
+}
+
+@media (min-width: 768px) {
+  #contactForm {
+    background-position: 60% 50%;
+    background-size: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#contactForm .formsub {
+  text-align: center;
+}
+
+#contactForm .formWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contactForm .formWrap .form-group input,
+#contactForm .formWrap .form-group textarea {
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  padding: 1rem 3rem;
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=ann.css.map */
